@@ -1,6 +1,7 @@
 import Foundation
 
 public struct Message: Codable {
+  public var cid: String?
   public var fromCAIP10: String
   public var toCAIP10: String
   public var fromDID: String

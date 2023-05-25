@@ -5,7 +5,7 @@ public enum ENV {
 }
 
 extension ENV {
-  static func getHost(withEnv env: ENV) -> String {
+  public static func getHost(withEnv env: ENV) -> String {
     switch env {
     case .STAGING:
       return "backend-staging.epns.io"
@@ -14,6 +14,6 @@ extension ENV {
     case .DEV:
       return "backend-dev.epns.io"
     }
-
   }
+
 }

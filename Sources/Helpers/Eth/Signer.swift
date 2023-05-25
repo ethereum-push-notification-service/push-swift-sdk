@@ -18,6 +18,6 @@ public struct Signer {
   }
 
   public func getAddress() -> String {
-    return account.address.asString();
+    return account.address.asString()
   }
 }

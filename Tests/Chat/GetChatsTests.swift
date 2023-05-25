@@ -1,5 +1,5 @@
-import XCTest
 import Push
+import XCTest
 
 class GetChatsTests: XCTestCase {
 
